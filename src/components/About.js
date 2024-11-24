@@ -6,24 +6,24 @@ import "./styles/skill.css"
 
 
 const About = () => {
-  const tiltRef = useRef(null);
+  // const tiltRef = useRef(null);
 
-  useEffect(() => {
-    if (window.VanillaTilt) {
-      VanillaTilt.init(tiltRef.current, {
-        max: 25,
-        speed: 400,
-        glare: true,
-        'max-glare': 0.5,
-      });
-    }
+  // useEffect(() => {
+  //   if (window.VanillaTilt) {
+  //     VanillaTilt.init(tiltRef.current, {
+  //       max: 25,
+  //       speed: 400,
+  //       glare: true,
+  //       'max-glare': 0.5,
+  //     });
+  //   }
 
-    return () => {
-      if (tiltRef.current?.vanillaTilt) {
-        tiltRef.current.vanillaTilt.destroy();
-      }
-    };
-  }, []);
+  //   return () => {
+  //     if (tiltRef.current?.vanillaTilt) {
+  //       tiltRef.current.vanillaTilt.destroy();
+  //     }
+  //   };
+  // }, []);
 
   return (
     <div className="about">

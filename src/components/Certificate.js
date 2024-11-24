@@ -38,7 +38,7 @@ const Certificate = () => {
   return (
     <div className='certification'>
         <h2  className='font1'>CERTIFICATION</h2>
-        <div class="certicates font1"  data-aos="fade-up">
+        <div className="certicates font1"  data-aos="fade-up">
             hellow
 
         </div>

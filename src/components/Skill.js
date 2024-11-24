@@ -13,14 +13,14 @@ const Skill = () => {
               <div className='cards'>
                 <div className='C++ sk'>
                   <p>C++</p>
-                  <div class="range">
-                    <div class="percent cpp-percent"></div>
+                  <div className="range">
+                    <div className="percent cpp-percent"></div>
                   </div>45%
                 </div>
                 <div className='Python sk'>
                   <p>Python</p>
-                  <div class="range">
-                    <div class="percent python-percent"></div>
+                  <div className="range">
+                    <div className="percent python-percent"></div>
                   </div>75%
                 </div>
 
@@ -33,20 +33,20 @@ const Skill = () => {
               <div className='cards'>
                 <div className='html sk'>
                   <p>HTML</p>
-                  <div class="range">
-                    <div class="percent html-percent"></div>
+                  <div className="range">
+                    <div className="percent html-percent"></div>
                   </div>90%
                 </div>
                 <div className='css sk'>
                   <p>CSS</p>
-                  <div class="range">
-                    <div class="percent css-percent"></div>
+                  <div className="range">
+                    <div className="percent css-percent"></div>
                   </div>80%
                 </div>
                 <div className='react sk'>
                   <p>REACT.js</p>
-                  <div class="range">
-                    <div class="percent rjs-percent"></div>
+                  <div className="range">
+                    <div className="percent rjs-percent"></div>
                   </div>60%
                 </div>
               </div>

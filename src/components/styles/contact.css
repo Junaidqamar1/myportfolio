@@ -85,7 +85,6 @@
     border: 2px solid white;
     /* background-image: linear-gradient(10deg,white,var(--redcol)); */
     background: none;
-    z-index: 200;
     backdrop-filter: blur(90px);
     height: 30px;
     width: 80%;

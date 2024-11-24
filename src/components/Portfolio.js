@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './styles/portfolio.css';
 import AOS from 'aos';
 import Typed from 'typed.js';
-import VanillaTilt from 'vanilla-tilt'
+// import VanillaTilt from 'vanilla-tilt'
 import 'aos/dist/aos.css'
 // import "https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.js"
 

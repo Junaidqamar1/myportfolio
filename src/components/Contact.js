@@ -10,21 +10,21 @@ const Contact = () => {
             <h1 className="font1 contacthead">CONTACT</h1>
             <div className='content'>
                 <div className="info " data-aos="fade-rigth">
-                    <div class="add det">
+                    <div className="add det">
                         <img src={point} alt="" />
                         <p>
                             Address:
                             98 mackenzi rd, kamarhati kolkata
                             700058 ,west bengal india</p>
                     </div>
-                    <div class="email det">
+                    <div className="email det">
                         <img src={email} alt="" />
                         <p>Email:
                             junaidqamar8753@gmail.com
                             abelisraelromero@gmail.com
                         </p>
                     </div>
-                    <div class="phone det">
+                    <div className="phone det">
                         <img src={phone} alt="" />
                         <p>
                             Phone:
@@ -34,7 +34,7 @@ const Contact = () => {
                 </div>
                 <div className="form font3" >
                         <h2 className='font1 from-head'>CONTACT ME</h2>
-                    <form name="submit-to-google-sheet" class="submit-to-google-sheet" method="POST">
+                    <form name="submit-to-google-sheet" className="submit-to-google-sheet" method="POST">
                         <label>NAME : </label>
                         <input type="text" name="NAME" required />
                         <label>EMAIL : </label>
@@ -43,7 +43,7 @@ const Contact = () => {
                         <input type="number" name="PHONE" id="" />
                         <label>ABOUT : </label>
                         <input type="text" name="ABOUT" id="password" />
-                        <button class="glow-on-hover bet" type="button">submit</button>
+                        <button className="glow-on-hover bet" type="button">submit</button>
                     </form>
                     {/* <div class="link">
                         <a href="https://www.instagram.com/its_junaid_qamar/" target="_blank"> <img
